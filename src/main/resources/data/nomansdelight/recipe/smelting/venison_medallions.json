@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "no_mans_delight:venison_medallions"
+  },
+  "result": {
+    "count": 1,
+    "id": "no_mans_delight:cooked_venison_medallions"
+  }
+}

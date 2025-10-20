@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "count": 1,
+    "id": "nomansland:living_urn"
+  },
+  "cookingtime": 600,
+  "experience": 3.0,
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_horse"
+    },
+    {
+      "tag": "c:foods/turtle_eggs"
+    },
+    {
+      "item": "nomansland:clover_patch"
+    },
+    {
+      "item": "nomansland:pear"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "nomansdelight:living_soup"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "nomansdelight:block/venison_roulade",
+		"1": "nomansdelight:block/venison_roulade_tray",
+		"particle": "nomansdelight:block/venison_roulade_particle"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 0],
+			"to": [14, 2, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 10, 6, 9], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 9, 8, 8], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [0, 10, 6, 9], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 9, 8, 8], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [8, 1, 16, 7], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 1, 8, 7], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 2, 4],
+			"to": [12, 5, 12],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 3.5, 8]},
+			"faces": {
+				"north": {"uv": [13, 4, 14.5, 0], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [13, 4, 14.5, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [14.5, 0, 13, 4], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [12.5, 0, 11, 4], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 4], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#0"}
+			}
+		}
+	]
+}

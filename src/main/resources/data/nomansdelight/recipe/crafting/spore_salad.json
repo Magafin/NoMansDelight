@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nomansland:mycelium_growths"
+    },
+    {
+      "tag": "nomansland:edible_mushrooms"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "nomansdelight:spore_salad"
+  }
+}

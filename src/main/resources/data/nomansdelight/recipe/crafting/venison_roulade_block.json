@@ -1,0 +1,29 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "XXX",
+    "$@%"
+  ],
+  "key": {
+    "#": {
+      "item": "nomansland:maple_syrup_bottle"
+    },
+    "X": {
+      "tag": "c:foods/cooked_venison"
+    },
+    "$": {
+      "item": "nomansland:grilled_mushrooms"
+    },
+    "%": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "@": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "nomansdelight:venison_roulade_block"
+  }
+}
