@@ -1,13 +1,13 @@
 package com.magafin.common.nmdreg;
 
 import com.magafin.common.item.BronzeMaterial;
+import com.magafin.common.item.CleaverItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
-import vectorwing.farmersdelight.common.item.KnifeItem;
 
 import java.util.function.Supplier;
 
@@ -22,7 +22,7 @@ public class ItemReg {
     public static final DeferredItem<Item> LIVING_SOUP_ITEM = ITEMS.register("living_soup",()->
             new BlockItem(BlockReg.LIVING_SOUP.get(), basicItem().stacksTo(1)));
     public static final Supplier<Item> CLEAVER = ITEMS.register("cleaver",
-            () -> new KnifeItem(BronzeMaterial.BRONZE, knifeItem(BronzeMaterial.BRONZE).rarity(Rarity.RARE)));
+            () -> new CleaverItem(BronzeMaterial.BRONZE, knifeItem(BronzeMaterial.BRONZE).rarity(Rarity.RARE)));
     public static final DeferredItem<Item> VENISON_ROULADE_PLATE = ITEMS.register("venison_roulade", registryName ->
             new ConsumableItem(bowlFoodItem(FoodValues.VENISON_ROULADE).stacksTo(16), true));
     public static final DeferredItem<Item> VENISON_ROULADE_BLOCK = ITEMS.register("venison_roulade_block",()->

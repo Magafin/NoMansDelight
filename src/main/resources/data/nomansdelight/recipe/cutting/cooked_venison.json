@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "nomansland:raw_venison"
+      "item": "nomansland:cooked_venison"
     }
   ],
   "result": [
     {
       "item": {
         "count": 2,
-        "id": "nomansdelight:venison_chop"
+        "id": "nomansdelight:cooked_venison_chop"
       }
     }
   ],

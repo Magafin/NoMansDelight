@@ -2,14 +2,14 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "nomansland:raw_horse"
+      "item": "nomansland:horse_steak"
     }
   ],
   "result": [
     {
       "item": {
         "count": 2,
-        "id": "no_mans_delight:horse_loin"
+        "id": "nomansdelight:cooked_horse_cuts"
       }
     }
   ],

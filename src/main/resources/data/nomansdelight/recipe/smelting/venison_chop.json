@@ -4,10 +4,10 @@
   "cookingtime": 200,
   "experience": 0.35,
   "ingredient": {
-    "item": "no_mans_delight:venison_medallions"
+    "item": "nomansdelight:venison_chop"
   },
   "result": {
     "count": 1,
-    "id": "no_mans_delight:cooked_venison_medallions"
+    "id": "nomansdelight:cooked_venison_chop"
   }
 }
