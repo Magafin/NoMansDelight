@@ -13,17 +13,17 @@ public class FoodValues {
     public static final int VERY_LONG_DURATION = 8400;// 7 minutes
 
     public static final FoodProperties LIVING_SOUP_BOWL = (new FoodProperties.Builder())
-            .nutrition(10).saturationModifier(0.8f)
+            .nutrition(12).saturationModifier(0.75f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties VENISON_ROULADE = (new FoodProperties.Builder())
-            .nutrition(12).saturationModifier(0.8f)
+            .nutrition(14).saturationModifier(0.8f)
             .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F).build();
     public static final FoodProperties FROG_SANDWICH = (new FoodProperties.Builder())
-            .nutrition(7).saturationModifier(0.9f).build();
+            .nutrition(8).saturationModifier(0.8F).build();
     public static final FoodProperties FRUIT_TART = (new FoodProperties.Builder())
-            .nutrition(4).saturationModifier(0.6f).build();
+            .nutrition(6).saturationModifier(0.5f).build();
     public static final FoodProperties NUT_BUN = (new FoodProperties.Builder())
-            .nutrition(5).saturationModifier(0.8f).build();
+            .nutrition(5).saturationModifier(0.5f).build();
     public static final FoodProperties SMORE = (new FoodProperties.Builder())
             .nutrition(9).saturationModifier(0.6f)
             .effect(() -> new MobEffectInstance(ModEffects.COMFORT, MEDIUM_DURATION, 0), 1.0F).build();
@@ -36,7 +36,14 @@ public class FoodValues {
     public static final FoodProperties COOKED_HORSE_CUTS = (new FoodProperties.Builder())
             .nutrition(4).saturationModifier(0.8f).build();
     public static final FoodProperties SPORE_SALAD = (new FoodProperties.Builder())
-            .nutrition(5).saturationModifier(0.6f)
-            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, SHORT_DURATION, 0), 1.0F)
-            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 300, 0), 1.0F).build();
+            .nutrition(5).saturationModifier(0.4F)
+            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 100, 0), 1.0F).build();
+    public static final FoodProperties COOKED_WEEDS = (new FoodProperties.Builder())
+            .nutrition(4).saturationModifier(0.5F)
+            .effect(() -> new MobEffectInstance(MobEffects.WEAKNESS, 300, 0), 1.0F).build();
+    public static final FoodProperties LAVENDER_TEA = (new FoodProperties.Builder()).alwaysEdible()
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, BRIEF_DURATION, 0), 1.0F).build();
+    public static final FoodProperties STEAK_WITH_SWEET_SAUCE = (new FoodProperties.Builder())
+            .nutrition(14).saturationModifier(0.75f)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT, LONG_DURATION, 0), 1.0F).build();
 }

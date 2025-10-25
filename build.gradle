@@ -106,6 +106,7 @@ dependencies{
     implementation ("curse.maven:appleskin-248787:5586600")
     implementation ("curse.maven:create-328085:6323264")
     implementation "curse.maven:mixed-litter-1221222:7058890"
+    implementation "curse.maven:cubes-without-borders-975120:5855532"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

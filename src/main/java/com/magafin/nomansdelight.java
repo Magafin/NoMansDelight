@@ -68,7 +68,9 @@ public class nomansdelight {
             event.insertAfter(ItemReg.LIVING_SOUP_BOWL.get().getDefaultInstance(), ItemReg.VENISON_ROULADE_BLOCK.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(ItemReg.VENISON_ROULADE_BLOCK.get().getDefaultInstance(), ItemReg.VENISON_ROULADE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(ItemReg.VENISON_ROULADE_PLATE.get().getDefaultInstance(), ItemReg.SPORE_SALAD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.insertAfter(ItemReg.SPORE_SALAD.get().getDefaultInstance(), ItemReg.FROG_SANDWICH.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(ItemReg.SPORE_SALAD.get().getDefaultInstance(), ItemReg.COOKED_WEEDS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(ItemReg.COOKED_WEEDS.get().getDefaultInstance(), ItemReg.STEAK_WITH_SWEET_SAUCE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(ItemReg.STEAK_WITH_SWEET_SAUCE.get().getDefaultInstance(), ItemReg.FROG_SANDWICH.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(NMLItems.SWEET_TART.get().getDefaultInstance(), ItemReg.FRUIT_TART.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(ItemReg.FROG_SANDWICH.get().getDefaultInstance(), ItemReg.NUT_BUN.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(NMLItems.HARDTACK.get().getDefaultInstance(), ItemReg.SMORE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -76,6 +78,7 @@ public class nomansdelight {
             event.insertAfter(NMLItems.COOKED_VENISON.get().getDefaultInstance(), ItemReg.COOKED_VENISON_CHOP.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(NMLItems.RAW_HORSE.get().getDefaultInstance(), ItemReg.HORSE_CUTS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(NMLItems.HORSE_STEAK.get().getDefaultInstance(), ItemReg.COOKED_HORSE_CUTS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(ItemReg.NUT_BUN.get().getDefaultInstance(), ItemReg.LAVENDER_TEA.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
 
             event.insertAfter(NMLItems.ANCIENT_BRONZE_MASK.get().getDefaultInstance(), ItemReg.CLEAVER.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);

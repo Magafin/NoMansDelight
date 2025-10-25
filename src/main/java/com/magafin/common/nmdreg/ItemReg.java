@@ -8,6 +8,7 @@ import net.minecraft.world.item.Rarity;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
+import vectorwing.farmersdelight.common.item.DrinkableItem;
 
 import java.util.function.Supplier;
 
@@ -45,4 +46,11 @@ public class ItemReg {
             new ConsumableItem(foodItem(FoodValues.COOKED_HORSE_CUTS), false));
     public static final DeferredItem<Item> SPORE_SALAD = ITEMS.register("spore_salad", registryName ->
             new ConsumableItem(bowlFoodItem(FoodValues.SPORE_SALAD).stacksTo(16), true));
+    public static final DeferredItem<Item> COOKED_WEEDS = ITEMS.register("cooked_weeds", registryName ->
+            new ConsumableItem(bowlFoodItem(FoodValues.COOKED_WEEDS).stacksTo(16), true));
+    public static final DeferredItem<Item> LAVENDER_TEA = ITEMS.register("lavender_tea", registryName ->
+            new DrinkableItem(drinkItem().food(FoodValues.LAVENDER_TEA), true, false));
+    public static final DeferredItem<Item> STEAK_WITH_SWEET_SAUCE = ITEMS.register("steak_with_sweet_sauce", registryName ->
+            new ConsumableItem(bowlFoodItem(FoodValues.STEAK_WITH_SWEET_SAUCE).stacksTo(16), true));
 }
+
