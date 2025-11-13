@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:foods/raw_venison",
+    "#c:foods/raw_horse"
+  ]
+}

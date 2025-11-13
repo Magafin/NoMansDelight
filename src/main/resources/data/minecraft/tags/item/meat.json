@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "nomansdelight:cooked_horse_cuts",
+    "nomansdelight:cooked_venison_chop",
     "nomansdelight:venison_chop",
     "nomansdelight:horse_cuts"
   ]

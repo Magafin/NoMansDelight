@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:foods/cooked_venison",
+    "#c:foods/cooked_horse"
+  ]
+}
