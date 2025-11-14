@@ -13,6 +13,15 @@
     {
       "weight": 1,
       "element": {
+        "location": "nomansland:small_dungeon/monster_anchor_dead_end",
+        "processors": "nomansland:small_dungeon",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
         "location": "nomansland:small_dungeon/room_2",
         "processors": "nomansland:small_dungeon",
         "projection": "rigid",
