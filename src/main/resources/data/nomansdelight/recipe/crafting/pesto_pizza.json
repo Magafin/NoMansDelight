@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "%$%",
+    "#@#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "@": {
+      "tag": "c:eggs"
+    },
+    "%": {
+      "tag": "c:foods/cooked_venison"
+    },
+    "$": {
+      "item": "nomansland:pesto_bottle"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "nomansdelight:pesto_pizza"
+  }
+}

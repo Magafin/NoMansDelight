@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nomansdelight:pesto_pizza_slice",
+          "weight": 100,
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nomansdelight:pesto_pizza",
+              "properties": {
+                "bites": "1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nomansdelight:pesto_pizza_slice",
+          "weight": 100,
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nomansdelight:pesto_pizza",
+              "properties": {
+                "bites": "2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nomansdelight:pesto_pizza_slice",
+          "weight": 100,
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nomansdelight:pesto_pizza",
+              "properties": {
+                "bites": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "nomansdelight:pesto_pizza",
+          "weight": 100,
+          "quality": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "nomansdelight:pesto_pizza",
+              "properties": {
+                "bites": "0"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

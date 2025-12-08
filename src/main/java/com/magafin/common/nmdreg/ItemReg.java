@@ -50,7 +50,23 @@ public class ItemReg {
             new ConsumableItem(bowlFoodItem(FoodValues.COOKED_WEEDS).stacksTo(16), true));
     public static final DeferredItem<Item> LAVENDER_TEA = ITEMS.register("lavender_tea", registryName ->
             new DrinkableItem(drinkItem().food(FoodValues.LAVENDER_TEA), true, false));
-    public static final DeferredItem<Item> STEAK_WITH_SWEET_SAUCE = ITEMS.register("steak_with_sweet_sauce", registryName ->
-            new ConsumableItem(bowlFoodItem(FoodValues.STEAK_WITH_SWEET_SAUCE).stacksTo(16), true));
+    public static final DeferredItem<Item> PESTO_PIZZA_SLICE = ITEMS.register("pesto_pizza_slice", registryName ->
+            new ConsumableItem(foodItem(FoodValues.PESTO_PIZZA_SLICE), false));
+    public static final DeferredItem<Item> PESTO_PIZZA_ITEM = ITEMS.register("pesto_pizza",()->
+            new BlockItem(BlockReg.PESTO_PIZZA.get(), basicItem().stacksTo(1)));
+    public static final DeferredItem<Item> VENISON_TARTARE = ITEMS.register("venison_tartare", registryName ->
+            new ConsumableItem(bowlFoodItem(FoodValues.VENISON_TARTARE).stacksTo(16), true));
+    public static final DeferredItem<Item> BILLHOOK_BASS_WITH_EGGS = ITEMS.register("billhook_bass_with_eggs", registryName ->
+            new ConsumableItem(bowlFoodItem(FoodValues.BILLHOOK_BASS_WITH_EGGS).stacksTo(16), true));
+    public static final DeferredItem<Item> BILLHOOK_BASS_SLICE = ITEMS.register("billhook_bass_slice", registryName ->
+            new ConsumableItem(foodItem(FoodValues.BILLHOOK_BASS_SLICE), false));
+    public static final DeferredItem<Item> COOKED_BILLHOOK_BASS_SLICE = ITEMS.register("cooked_billhook_bass_slice", registryName ->
+            new ConsumableItem(foodItem(FoodValues.COOKED_BILLHOOK_BASS_SLICE), false));
+    public static final DeferredItem<Item> SHROOMBURGER = ITEMS.register("shroomburger", registryName ->
+            new ConsumableItem(foodItem(FoodValues.SHROOMBURGER), true));
+    public static final DeferredItem<Item> HORSE_WRAP = ITEMS.register("horse_wrap", registryName ->
+            new ConsumableItem(foodItem(FoodValues.HORSE_WRAP), false));
+    public static final DeferredItem<Item> BILLHOOK_BASS_ROLL = ITEMS.register("billhook_bass_roll", registryName ->
+            new ConsumableItem(foodItem(FoodValues.BILLHOOK_BASS_ROLL), false));
 }
 

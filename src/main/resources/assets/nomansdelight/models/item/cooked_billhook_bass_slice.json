@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "nomansdelight:item/cooked_billhook_bass_slice"
+  }
+}

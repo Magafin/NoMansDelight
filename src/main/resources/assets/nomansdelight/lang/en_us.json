@@ -5,6 +5,9 @@
   "block.nomansdelight.venison_roulade_block": "Venison Roulade",
   "item.nomansdelight.venison_roulade": "Plate of Venison Roulade",
   "item.nomansdelight.frog_sandwich": "Frog Sandwich",
+  "item.nomansdelight.horse_wrap": "Horse Wrap",
+  "item.nomansdelight.shroomburger": "Shroomburger",
+  "item.nomansdelight.billhook_bass_roll": "Billhook Bass Roll",
   "item.nomansdelight.fruit_tart": "Fruit Tart",
   "item.nomansdelight.nut_bun": "Nut Bun",
   "item.nomansdelight.smore": "S'more",
@@ -15,5 +18,10 @@
   "item.nomansdelight.spore_salad": "Spore Salad",
   "item.nomansdelight.cooked_weeds": "Cooked Weeds",
   "item.nomansdelight.lavender_tea": "Lavender Tea",
-  "item.nomansdelight.steak_with_sweet_sauce": "Steak with Sweet Sauce"
+  "item.nomansdelight.venison_tartare": "Venison Tartare",
+  "item.nomansdelight.pesto_pizza_slice": "Pizza with Pesto Slice",
+  "item.nomansdelight.billhook_bass_with_eggs": "Billhook Bass with Eggs",
+  "item.nomansdelight.billhook_bass_slice": "Raw Billhook Bass Slice",
+  "item.nomansdelight.cooked_billhook_bass_slice": "Cooked Billhook Bass Slice",
+  "block.nomansdelight.pesto_pizza": "Pizza with Pesto"
 }
