@@ -4,11 +4,13 @@ import com.farcr.nomansland.common.registry.items.NMLCreativeTabs;
 import com.farcr.nomansland.common.registry.items.NMLItems;
 import com.farcr.nomansland.datagen.tags.NMLItemTagsProvider;
 import com.magafin.common.nmdreg.ItemReg;
+import com.magafin.common.nmdreg.ParticleReg;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,7 +41,10 @@ import vectorwing.farmersdelight.common.registry.ModCreativeTabs;
 import vectorwing.farmersdelight.common.registry.ModItems;
 
 import static com.magafin.common.nmdreg.BlockReg.BLOCKS;
+import static com.magafin.common.nmdreg.EntityReg.ENTITIES;
 import static com.magafin.common.nmdreg.ItemReg.ITEMS;
+import static com.magafin.common.nmdreg.ParticleReg.PARTICLE_TYPES;
+import static net.minecraft.core.registries.Registries.PARTICLE_TYPE;
 
 @Mod(nomansdelight.MODID)
 public class nomansdelight {
@@ -55,10 +60,17 @@ public class nomansdelight {
 
         BLOCKS.register(modEventBus);
 
+        ENTITIES.register(modEventBus);
+
+        PARTICLE_TYPES.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+    }
+    public static ResourceLocation location(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -87,6 +99,7 @@ public class nomansdelight {
             event.insertAfter(ItemReg.FROG_SANDWICH.get().getDefaultInstance(), ItemReg.SHROOMBURGER.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(ItemReg.FROG_SANDWICH.get().getDefaultInstance(), ItemReg.HORSE_WRAP.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(ItemReg.FROG_SANDWICH.get().getDefaultInstance(), ItemReg.BILLHOOK_BASS_ROLL.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(NMLItems.INK_BOMB.get().getDefaultInstance(), ItemReg.RICEBOMB.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
 
             event.insertAfter(NMLItems.ANCIENT_BRONZE_MASK.get().getDefaultInstance(), ItemReg.CLEAVER.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);

@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "nomansdelight:entity/bombs/rice_bomb"
+    }
+  ]
+}
